@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meals_app/Models/Category.dart';
+import 'package:meals_app/Models/category.dart';
 import 'package:meals_app/Models/meals.dart';
 
 // Constants in Dart should be written in lowerCamelcase.
