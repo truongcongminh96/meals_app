@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:meals_app/Data/dummy_data.dart';
 import 'package:meals_app/Models/meals.dart';
 import 'package:meals_app/providers/meals_provider.dart';
 import 'package:meals_app/screens/categories_screen.dart';
@@ -79,7 +80,6 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
   @override
   Widget build(BuildContext context) {
     final meals = ref.watch(mealsProvider);
-
 
     final availableMeals =
         dummyMeals.where((meal) {
