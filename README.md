@@ -1,16 +1,67 @@
-# meals_app
 
-A new Flutter project.
+# 🍽️ Flutter Meals App
 
-## Getting Started
+A simple, beautiful Flutter meals browsing app built as an example to demonstrate state management using **Riverpod**.
 
-This project is a starting point for a Flutter application.
+## 🎯 Purpose
 
-A few resources to get you started if this is your first Flutter project:
+This project was created to:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Explore **Riverpod** for efficient and scalable state management
+- Practice Flutter app architecture using providers and data models
+- Create a functional UI using widgets, lists, and routing
+- Implement filtering and favorites functionality in a clean way
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Project Structure
+
+```
+lib/
+├── Data/                   # Dummy data used in the app
+├── Models/                 # Data models (e.g. Meal, Category)
+├── Providers/              # Riverpod providers (favorites, filters, meals)
+├── Screens/                # Screen UI (categories, filters, details, tabs)
+├── Widgets/                # Reusable widgets (grid items, drawers, etc.)
+└── main.dart               # App entry point
+```
+
+## 🧪 Features
+
+- ✅ Browse meals by category
+- ✅ Filter meals by dietary preferences (gluten-free, vegetarian, vegan, lactose-free)
+- ✅ Mark meals as favorites
+- ✅ View detailed meal steps and ingredients
+- ✅ State management handled using **Riverpod**
+- ✅ Clean folder structure following best practices
+
+## 🛠️ Technologies Used
+
+- ✅ Flutter (3.29 stable)
+- ✅ Dart
+- ✅ Riverpod (hooks_riverpod or flutter_riverpod)
+- ✅ VS Code or Android Studio
+
+## 🚀 Getting Started
+
+```bash
+flutter pub get
+flutter run
+```
+
+## 📸 Screenshots
+
+> (Add UI screenshots here if needed)
+
+## 📦 Suggestions for Improvement
+
+- Add persistent storage using `shared_preferences` or `hive`
+- Add dark/light theme switch with Riverpod
+- Add unit and widget tests using `flutter_test`
+
+## 👨‍💻 Author
+
+- Name: **Truong Cong Minh**
+- Purpose: Built as an educational example to showcase Flutter + Riverpod in practice.
+
+## 📄 License
+
+This project is licensed under the MIT License.
